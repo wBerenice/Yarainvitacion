@@ -1,0 +1,56 @@
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.subir {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    background: #F2954B;
+    color: white;
+    z-index: 2;
+    display: grid;
+    place-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.container_productos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 4rem;
+
+    .card_productos {
+        margin: 1rem;
+        border-radius: 1rem;
+        overflow: hidden;
+
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+            .card_productos .card_main {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+
+            .card_productos .card_main h3 {
+                font-size: 1.5rem;
+                margin-top: .25rem;
+            }    
+
+        }
+
+    }
+
+}
+

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+img, 
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.bordes {
+    border-radius: 1rem;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+    
+
+body,
+body *{
+    font-family: 'Lora', serif;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+// 
+h2 {
+    font-size: 2.2rem;
+    padding-left: 3rem;
+    color: $clr-dark;
+}
+
+h3 {
+    font-size: 2rem;
+    color: $clr-molino;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.espaciado {
+    padding: 1.5rem;
+}
+
+.espaciado-bottom {
+    padding-bottom: 1.5rem;
+}
+
+
+// @each
+
+$clases: local, contacto, acerca; 
+@each $clase in $clases {
+    main.#{$clase}  {
+        background: url(/images/bread-bottom.jpg) no-repeat center/cover;
+        display: grid;
+        place-content: center;
+        padding: 2rem;
+    }
+}
+

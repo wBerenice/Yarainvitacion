@@ -1,0 +1,35 @@
+
+
+section.acerca {
+    background: $clr-light;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+        section.acerca .acerca_txt {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            flex-grow: 1;
+            flex-basis: 400px;
+            padding: 1rem;     
+
+        }
+
+        @media only screen and (max-width: 1024px) {
+    
+            section.acerca {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                border-radius: 1rem;   
+                text-align: justify;
+            }
+    
+        
+        }

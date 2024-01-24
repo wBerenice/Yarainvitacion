@@ -1,0 +1,181 @@
+
+    header {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding-top: 0.5rem;
+        
+
+    .logo {
+            font-size: 4rem;
+
+            & img {
+                width: 75px;
+            }   
+        }
+
+    .logo {
+        display: flex;
+        gap: 1rem;
+    }
+
+    img.logo3 {
+        width: 65px;
+        height: 70px;
+    }
+
+        .nav_btn {
+            display: none;
+        }
+    }
+
+    nav {
+        background-color: $clr-molino;
+        width: 100%;
+
+        .menu {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            font-size: 1.15rem;
+            gap: 1.25rem;
+            padding: 1rem;
+            color: $clr-light;
+        }
+
+            .menu li {
+                position: relative;
+                }
+                
+                .submenu {
+                    position: absolute;
+                    left: -1em;
+                    min-width: max-content;
+                    background-color: $clr-molino;
+                    z-index: 1;
+                    padding: 1em;
+                    padding-top: 1.5em;
+                    display: flex;
+                    flex-flow: column;
+                    gap: 0.5rem;
+                    display: none;
+                }
+
+                .menu > li:hover .submenu {
+                    display: flex;
+                }
+
+                a:hover {
+                    text-decoration: 1px underline $clr-light;
+                    text-underline-offset: 5px;
+                }
+        
+    }
+
+
+    @media (max-width: 550px) {
+
+
+    header {
+        all: unset;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+
+        .logo {
+            display: flex;
+            gap: 1rem;
+        }
+
+        img.logo3 {
+            all: unset;
+            width: 50px;
+            height: 50px;
+        }
+    
+        .logo span {
+            font-size: 2.5rem;
+            border-radius: 1rem;
+        }
+        
+        .nav_btn {
+            fill: $clr-dark;
+            display: block;
+            cursor: pointer;
+            width: 50px;
+    
+    
+            &-close {
+                float: right;
+                margin: 2rem 2.1em;
+            }
+        }
+
+
+        
+        nav {
+            all: unset;
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            height: 100vh;
+            width: 70%;
+    
+            background-color: $clr-molino;
+            border-radius: .5rem;
+            display: none;
+
+
+            &.nav-open {
+                display: block;
+
+            }
+            
+    
+            .menu {
+                display: flex;
+                flex-flow: column nowrap;
+                gap: 2rem;
+    
+                margin-top: 20vh;
+                margin-left: 2em;
+                color: $clr-light;
+    
+                li {
+                    opacity: 0.70;
+                    letter-spacing: 0.1rem;
+    
+                    &.active {
+                        font-weight: bold;
+                        opacity: 1;
+                    }
+
+                    
+                    a:hover :not(.submenu li)  {
+                        text-decoration: 1px underline $clr-light;
+                        text-underline-offset: 5px;
+                    }
+
+                    // &:hover :not(.submenu li)  {
+                    //     text-decoration: 1px underline $clr-light;
+                    //     text-underline-offset: 5px;
+                    // }
+    
+                    
+                    ul.submenu {
+                        all: unset;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        gap: 0.5rem;
+                        padding-top: 0.25rem;
+                        padding-left: 1rem;
+                    }
+                }
+                
+            }
+        }
+    }     
+}
