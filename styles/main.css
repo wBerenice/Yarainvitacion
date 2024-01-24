@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Lora:ital,wght@1,400;1,700&family=Ubuntu&display=swap");
+/* POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* GREAT VIBES */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* 
+font-family: 'Lora', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Poppins', sans-serif; */
+
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +43,7 @@ body * {
   font-family: 'Lora', serif;
 }
 
+
 h1 {
   font-size: 2.5rem;
 }
@@ -45,6 +57,24 @@ h2 {
 h3 {
   font-size: 2rem;
   color: #F2954B;
+}
+
+.bendicion{ 
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 100;
+  padding: 0.5rem;
+  padding-bottom: 7rem;
+}
+
+.yara-bendicion{
+  font-weight: 700;
+}
+
+.cronometro{
+  background-color: lightblue;
+  height: 10rem;
+  align-items: center;
 }
 
 .centrado {
@@ -323,7 +353,9 @@ form.contacto .input_group textarea {
 }
 
 footer {
-  background-color: #D67D34;
+  /* background-color: #D67D34; */
+  /* background-color: #6CDBDD;  */
+  background-color: #95B0B1; 
   color: #DFE0DF;
 }
 
@@ -408,7 +440,9 @@ header .nav_btn {
 }
 
 nav {
-  background-color: #F2954B;
+  /* background-color: #F2954B; */
+  /* background-color: #6CDBDD; */
+  background-color: #95B0B1;
   width: 100%;
 }
 
@@ -439,7 +473,9 @@ nav .submenu {
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
-  background-color: #F2954B;
+  /* background-color: #F2954B; */
+  /* background-color: #6CDBDD; */
+  background-color: #95B0B1;
   z-index: 1;
   padding: 1em;
   padding-top: 1.5em;
@@ -514,7 +550,9 @@ nav a:hover {
     z-index: 1;
     height: 100vh;
     width: 70%;
-    background-color: #F2954B;
+    /* background-color: #F2954B; */
+    /* background-color: #6CDBDD; */
+    background-color: #95B0B1;
     border-radius: .5rem;
     display: none;
   }
