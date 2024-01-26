@@ -354,9 +354,8 @@ form.contacto .input_group textarea {
 
 footer {
   /* background-color: #D67D34; */
-  /* background-color: #6CDBDD;  */
-  background-color: #95B0B1; 
-  color: #DFE0DF;
+  background-color: #6CDBDD; 
+  color: #324B4B;
 }
 
 footer address {
@@ -441,8 +440,7 @@ header .nav_btn {
 
 nav {
   /* background-color: #F2954B; */
-  /* background-color: #6CDBDD; */
-  background-color: #95B0B1;
+  background-color: #6CDBDD;
   width: 100%;
 }
 
@@ -460,7 +458,8 @@ nav .menu {
   font-size: 1.15rem;
   gap: 1.25rem;
   padding: 1rem;
-  color: white;
+  /* color: white; */
+  color: #324B4B;
 }
 
 nav .menu li {
@@ -474,8 +473,7 @@ nav .submenu {
   min-width: -moz-max-content;
   min-width: max-content;
   /* background-color: #F2954B; */
-  /* background-color: #6CDBDD; */
-  background-color: #95B0B1;
+  background-color: #6CDBDD;
   z-index: 1;
   padding: 1em;
   padding-top: 1.5em;
@@ -551,8 +549,7 @@ nav a:hover {
     height: 100vh;
     width: 70%;
     /* background-color: #F2954B; */
-    /* background-color: #6CDBDD; */
-    background-color: #95B0B1;
+    background-color: #6CDBDD;
     border-radius: .5rem;
     display: none;
   }
@@ -623,7 +620,7 @@ nav a:hover {
 
 .hero video {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -720,7 +717,7 @@ html {
   position: fixed;
   bottom: 1em;
   right: 1em;
-  background: #F2954B;
+  background: #6cdbdd;
   color: white;
   z-index: 2;
   display: -ms-grid;
