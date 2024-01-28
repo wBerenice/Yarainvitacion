@@ -50,8 +50,8 @@ body {
 body,
 body * {
   font-family: 'Lora', serif;
-  margin: auto;
-  width: 85%;
+  /* margin: auto;
+  width: 86%; */
 }
 
 
