@@ -88,7 +88,6 @@ h3 {
   font-weight: 400;
   color: black;
   font-size: 1.3rem;
-  padding-left: 0.8rem;
   padding-bottom: 1.8rem;
 }
 
@@ -99,6 +98,7 @@ h3 {
   padding: 0;
   color: #6CDBDD;
   padding-bottom: 1.8rem;
+  padding-left: 2rem;
 }
 
 .mis-xv{
@@ -143,7 +143,27 @@ h3 {
 
 .calendario{
   margin: auto;
-  width: 80%;
+  width: 30%;
+}
+
+.calendario h3{
+  color: #6cdbdd;
+  font-weight: 600;
+}
+
+.sub-calendario{
+  margin:auto;
+  width: 90%;
+  padding-top: 2rem;
+}
+
+.sub-calendario{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  align-items: center;
+  align-content: center;
 }
 
 main.local {
