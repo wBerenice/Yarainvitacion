@@ -66,8 +66,7 @@ h3 {
   font-size: 1.3rem;
   color: black;
   font-weight: 100;
-  padding: 2rem;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .mis-xv{
@@ -423,6 +422,7 @@ header {
   padding-top: 0.5rem;
 }
 
+
 header .logo {
   font-size: 4rem;
 }
@@ -624,7 +624,6 @@ nav a:hover {
   color: white;
   background-image: url(/images/fondo-una-flor.png);
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hero_content h1 {
