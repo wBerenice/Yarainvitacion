@@ -200,6 +200,7 @@ section.acerca .acerca_txt {
 
 .card {
   margin: 1rem;
+  margin-bottom: 4.5rem;
   border-radius: 1rem;
   overflow: hidden;
   display: -webkit-box;
