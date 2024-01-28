@@ -74,8 +74,8 @@ h3 {
   font-size: 1.3rem;
   color: black;
   font-weight: 100;
-  padding-top: 60%;
-  
+  padding-top: 70%;
+  padding-bottom: 30%;
 }
 
 .honor-invitacion{
@@ -657,7 +657,8 @@ nav a:hover {
 
 .hero {
   position: relative;
-  height: calc(100vh - 137px);
+  /* height: calc(50vh - 137px); */
+  height: 50%;
 }
 
 .hero_content {
