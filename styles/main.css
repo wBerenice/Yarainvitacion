@@ -485,7 +485,6 @@ nav .menu {
   font-size: 1rem;
   gap: 1.25rem;
   padding: 1rem;
-  /* color: white; */
   color: #324B4B;
 }
 
@@ -499,7 +498,6 @@ nav .submenu {
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
-  /* background-color: #F2954B; */
   background-color: #6CDBDD;
   z-index: 1;
   padding: 1em;
