@@ -60,11 +60,9 @@ h3 {
 }
 
 .bendicion{ 
-  font-size: 1.5rem;
-  color: white;
+  font-size: 1.3rem;
+  color: black;
   font-weight: 100;
-  padding: 0.5rem;
-  padding-bottom: 7rem;
 }
 
 .yara-bendicion{
@@ -612,7 +610,8 @@ nav a:hover {
   display: grid;
   place-content: center;
   color: white;
-  /* background-image: url(/images/fondo-4.jpg); */
+  background-image: url(/images/fondo-una-flor.png);
+  background-repeat: no-repeat;
 }
 
 .hero_content h1 {
