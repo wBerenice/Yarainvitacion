@@ -82,6 +82,11 @@ h3 {
   padding-top: 1rem;
 }
 
+.divider{
+  margin: auto;
+  width: 70%;
+}
+
 .yara-bendicion{
   font-weight: 700;
 }
@@ -477,7 +482,7 @@ nav .menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 1.15rem;
+  font-size: 1rem;
   gap: 1.25rem;
   padding: 1rem;
   /* color: white; */
@@ -587,8 +592,8 @@ nav a:hover {
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
-    gap: 2rem;
-    margin-top: 20vh;
+    gap: 1rem;
+    margin-top: 10vh;
     margin-left: 2em;
     color: white;
   }
@@ -630,7 +635,7 @@ nav a:hover {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 80%;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -643,12 +648,12 @@ nav a:hover {
   font-size: clamp(3rem, 5vw, 6rem);
 }
 
-.hero video {
+/* .hero video {
   -o-object-fit: cover;
   object-fit: cover;
   height: 100%;
   width: 100%;
-}
+} */
 
 @media (max-width: 550px) {
   .hero {
