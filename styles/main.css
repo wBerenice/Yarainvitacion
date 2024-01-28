@@ -146,7 +146,18 @@ h3 {
   width: 30%;
 }
 
+
 .calendario h3{
+  color: #6cdbdd;
+  font-weight: 600;
+}
+
+.confirmacion{
+  margin:auto;
+  width: 60%;
+}
+
+.confirmacion h3{
   color: #6cdbdd;
   font-weight: 600;
 }
@@ -164,6 +175,12 @@ h3 {
   width: 80%;
   align-items: center;
   align-content: center;
+}
+
+
+.form{
+  margin:auto;
+  width: 60%;
 }
 
 main.local {
@@ -257,7 +274,7 @@ section.acerca .acerca_txt {
 
 .card {
   margin: 1rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: 2.5rem;
   border-radius: 1rem;
   overflow: hidden;
   display: -webkit-box;
@@ -1094,4 +1111,24 @@ main {
 
 
 /* ANIMACIONES CSS */
+button{
+  font-family: 'Lora', serif;
+}
 
+.my-button {
+  padding: 10px 20px;
+  background-color: #6cdbdd;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Lora', serif;
+}
+
+.my-button:hover {
+  background-color: #6cdbdd;
+}
+
+.my-button:active {
+  background-color: #6CDBDD;
+}
