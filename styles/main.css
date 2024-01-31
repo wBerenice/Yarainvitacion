@@ -134,6 +134,12 @@ h3 {
   padding-bottom: 1.5rem;
 }
 
+.mini-texto-ceremonia{
+  font-family: 'Poppins', sans-serif; 
+  font-size: 0.99rem;
+  padding: 1rem;
+}
+
 .galeria{
   font-family: 'Lora', serif;
   font-weight: 500;
@@ -166,6 +172,22 @@ h3 {
   margin:auto;
   width: 100%;
   padding-top: 2rem;
+}
+
+.sub-calendario-2{
+  margin:auto;
+  width: 100%;
+  padding: 0;
+  padding-top: 2rem;
+}
+
+.sub-calendario-2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  align-items: center;
+  align-content: center;
 }
 
 .sub-calendario{

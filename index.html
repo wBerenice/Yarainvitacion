@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <meta name="description" content="Yara Hernandéz | Fiesta de XV años">
     <meta name="keywords" content="Yara Hernandéz | Fiesta de XV años">
     
     <title>Yara Hernandéz | XV años</title>
 
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <link rel="shorcut icon" type="x-icon" href="images/yara-logo.png">
     
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -151,7 +154,7 @@
                 </div>
                 
                 <div>
-                    <h3 class="texto-bendicion" style="padding-bottom: 0;">Tenemos el honor de invitarlos a la Misa de Acción de Gracias con motivo de</h3> 
+                    <h3 class="texto-bendicion" style="padding-bottom: 0;">Tenemos el honor de invitarlos a la ceremonia religiosa con motivo de:</h3> 
                 </div>
 
                 <div>
@@ -170,13 +173,15 @@
                 <img src="images/icono-calendario.png" alt="" width="20%">
 
 
-                <h2 style="padding: 0rem; padding-top: 3.5rem;">17:45 HORAS</h2>
+                <h2 style="padding: 0rem; padding-top: 3.5rem;">17:00 HORAS</h2>
+                <p class="mini-texto-ceremonia"><span style="font-weight: 700;"> Todo tomará lugar en el mismo salón: Eventos Sociales KUAUTLALI.</span> A las 17:00hrs empezará la ceremonia religiosa, y entre 18:30 a 19:00hrs será la recepción.</p>
                 <img src="images/icono-relog.png" alt="" width="20%">
 
-                <h2 style="padding: 0rem; padding-top: 3.5rem;">Salón de fiestas</h2>
+                <h2 class="sub-calendario-2">Eventos Sociales KUAUTLALI</h2>
                 <img src="images/icono-ubicacion.png" alt="" width="20%">
 
-                <button class="my-button" style="margin-top: 1rem;"><a href="https://maps.app.goo.gl/Kumv3k1cfFYaZiaS9" target="_blank">Ver ubicación</a></button>
+                <button class="my-button" style="margin-top: 1rem;"><a href="https://maps.app.goo.gl/NTk51yZpA5tRuTneA" target="_blank">Ver ubicación</a></button>
+                <img src="images/salon-fiestas-1.png" alt="" style="padding-top: 1rem; border-radius: 6rem;">
             </div>
 
             <div class="divider" style= "margin-top: 2.3rem;">
@@ -191,13 +196,6 @@
 
             <div class="container" >
                 <h2 class="galeria" id="galeria">GALERÍA</h2>
-                <div class="card" data-aos="fade-up">
-                    <div class="card_main">
-                        <div class="card_image">
-                            <img src="images/yara-bebe-amarillo-H.jpg">
-                        </div>
-                    </div>
-                </div>
                 <div class="card" data-aos="fade-right">
                     <div class="card_main">
                         <div class="card_image">
@@ -226,13 +224,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="card" data-aos="fade-up">
-                    <div class="card_main">
-                        <div class="card_image">
-                            <img src="images/yara-graduada-V.jpg">
-                        </div>
-                    </div>
-                </div>
                 <div class="card" data-aos="fade-right">
                     <div class="card_main">
                         <div class="card_image">
@@ -244,13 +235,6 @@
                     <div class="card_main">
                         <div class="card_image">
                             <img src="images/yara-mama-joselyn-V.jpg">
-                        </div>
-                    </div>
-                </div>
-                <div class="card" data-aos="fade-up">
-                    <div class="card_main">
-                        <div class="card_image">
-                            <img src="images/yara-adolescente-V.jpg">
                         </div>
                     </div>
                 </div>
@@ -274,15 +258,15 @@
             </div>
             
             
-            <div class="calendario">
+            <!-- <div class="calendario">
                 
                 <h3 id="generales">GENERALES</h3>
-            </div>
+            </div> -->
             
             
-            <div>
+            <!-- <div>
                 <img src="images/logo-mis-xv.png" alt="">
-            </div>
+            </div> -->
             
             <div class="confirmacion">
                 <h3 id="confirmacion">CONFIRMACIÓN</h3>
@@ -290,23 +274,10 @@
 
             <div class="form">
 
-                <!-- <form
-                    action="https://formspree.io/f/xwkjlkaq"
-                    method="POST">
-                    <label>
-                        Your email:
-                        <input type="email" name="email">
-                    </label>
-                    <label>
-                        Your message:
-                        <textarea name="message"></textarea>
-                    </label>
-                    <!-- your other form fields go here -->
-                    
-                    <!-- <button type="submit">Send</button> -->
-                <!-- </form> --> 
+                
 
-                <form id="fs-frm" name="basic-rsvp-form" accept-charset="utf-8" action="https://formspree.io/f/xwkjlkaq" method="post">
+                <!-- <form id="fs-frm" name="basic-rsvp-form" accept-charset="utf-8" action="https://formspree.io/f/xwkjlkaq" method="post"> -->
+                <form id="fs-frm" name="basic-rsvp-form" accept-charset="utf-8" action="https://formspree.io/f/xrgnenqj" method="post">
                     <fieldset id="fs-frm-inputs">
                     <label for="full-name">Nombre completo</label>
                     <input type="text" name="Nombre completo" id="full-name" placeholder="Ana Sánchez" required="">
@@ -323,7 +294,9 @@
                         <option value="Sí">Sí. ¡Me encantaría!</option>
                         <option value="No">No</option>
                     </select>
-                    <label for="plus">¿Cuántas personas serían en total?</label>
+                    <label for="plus">Tomando en cuenta la invitación en PDF que 
+                        recibiste, confirma el número de invitados</label>
+                    <label><span style="font-weight: 700;">(no podrá ser mayor a tu invitación)</span></label>
                     <select name="¿Cuántas personas en total?" id="plus" required="">
                         <option value="" selected="" disabled="">Selecciona</option>
                         <option value="1">Soy solo yo (1 persona)</option>
@@ -339,16 +312,14 @@
                         <option value="3">No podré ir</option>
                     </select>
 
-                    <label for="message">Nombre de tus acompañantes</label>
+                    <label for="message">Nombre de los invitados</label>
                     <textarea rows="5" name="Nombre acompañantes" id="message" placeholder="Ana Sánchez, Pedro Sánchez, etc..."></textarea>
 
 
                     <label for="message">Finalmente, envíale un mensaje lindo y tus mejores deseos a Yara (opcional)</label>
                     <textarea rows="5" name="Mensajito para Yara" id="message" placeholder="¡Hola Yara!..."></textarea>
                     
-                    <label for="message">Al hacer click en "enviar", serás redirigido y sólo tienes que hacer click en "Go back" y habremos recibido tu confirmación!</label>
-                    <!-- <label for="message">¡Y listo!</label>
-                    <label for="message">¡Muchas gracias por tu confirmación!</label> -->
+                    <label for="message">Al hacer click en "enviar", habremos recibido tu confirmación!</label>
                     <input type="hidden" name="_subject" id="email-subject" value="¡Nueva confirmación!">
                     </fieldset>
                     <input type="submit" value="Enviar" style="margin-bottom: 2rem; margin-top: 1rem;">
